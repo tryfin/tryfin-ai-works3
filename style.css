@@ -160,9 +160,11 @@ a { text-decoration: none; color: inherit; }
   min-height: 50vh;
   display: flex;
   align-items: center;
+  background-color: var(--bg);
   background-image: url('images/hero-bg.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
